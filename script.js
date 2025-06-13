@@ -177,6 +177,11 @@ symbolicListContainer.appendChild(symbolicList);
 const studentId = document.createElement('h3');
 studentId.textContent = '20222704 남규빈';
 
+const adress = document.createElement('a');
+adress.href = 'https://github.com/been-03/natural-deduction-js.ver-';
+adress.textContent = '원격저장소 주소';
+adress.target = "_blank"; 
+
 // === body에 추가 ===
 document.body.appendChild(h1);
 document.body.appendChild(p);
@@ -195,4 +200,4 @@ document.body.appendChild(document.createElement("br"));
 document.body.appendChild(symbolicListContainer);
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(studentId)
-
+document.body.appendChild(adress);
